@@ -1,0 +1,4 @@
+docker pull mysql
+docker container run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=psw@root123456 -e MYSQL_USER=docker_usr -e MYSQL_PASSWORD=docker_pwd -e MYSQL_DATABASE=curso_docker mysql
+
+ 
